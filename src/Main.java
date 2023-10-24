@@ -11,6 +11,7 @@ public class Main {
                     new Zbozi("Klávesnice",
                             BigDecimal.valueOf(250),
                             LocalDate.now());
+            System.out.println(zbozi);
         } catch (ZboziException e) {
             System.err.println(
                     "Nepodařilo se vytvořit objekt Zboží: "+
